@@ -1,0 +1,34 @@
+/* 코드 구현 */
+#login-form {
+  width: 340px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#login-form > div {
+  width: 100%;
+  margin: 5px;
+}
+#id,
+#pw {
+  width: 80%;
+  float: right;
+  border: none;
+  border-bottom: 1px solid darkgray;
+}
+#pw-info {
+  /* text-align: center; */
+  visibility: hidden;
+  font-size: 14px;
+  color: red;
+}
+#login-btn {
+  width: 100%;
+  height: 35px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
